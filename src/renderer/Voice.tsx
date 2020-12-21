@@ -258,7 +258,7 @@ const Voice: React.FC = function () {
 					pan.refDistance = 0.1;
 					pan.panningModel = 'equalpower';
 					pan.distanceModel = 'linear';
-					pan.maxDistance = 2.66 * 2;
+					pan.maxDistance = 2.66;
 					pan.rolloffFactor = 1;
 
 					source.connect(pan);
